@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -13,7 +14,7 @@ import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "FcnTokenTest";
+    private static final String TAG = "FcmTokenTest";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
                         // Get new FCM registration token
                         String token = task.getResult();
-
+                        TextView tvToken = findViewById(R.id.tvToken);
+                        tvToken.setText(token);
                         // Log and toast
                         Toast.makeText(MainActivity.this, token, Toast.LENGTH_SHORT).show();
                     }
