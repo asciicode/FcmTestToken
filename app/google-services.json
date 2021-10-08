@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656680756016",
+    "project_id": "fcmtokentest-6da71",
+    "storage_bucket": "fcmtokentest-6da71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656680756016:android:06f0df2b3222047dde5ef5",
+        "android_client_info": {
+          "package_name": "nz.co.logicons.tlp.mobile.fcmtesttoken"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656680756016-45i26834vedca6kg01oqipjjnm7omu2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEoCgnue_LtdC67vWBxml_k4ku3YRMu0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656680756016-45i26834vedca6kg01oqipjjnm7omu2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
